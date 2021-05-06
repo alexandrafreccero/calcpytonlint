@@ -1,4 +1,4 @@
-from Calculator import add, sub
+from Calculator import add, sub, div
 
 
 def test_add():
@@ -9,3 +9,8 @@ def test_add():
 def test_sub():
     assert 10 == sub(15, 5)
     assert 1 == sub(9, 8)
+
+
+def test_div():
+    assert 10 == div(20, 2)
+    assert 2 == div(8, 4)
