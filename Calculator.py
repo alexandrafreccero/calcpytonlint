@@ -8,3 +8,6 @@ def sub(x, y):      # funktion som tar in x och y
 
 def div(x, y):      # funktion som tar in x och y
     return x / y    # returnerar kvot
+
+def multiply(x, y): # funktion som multiplicerar två termer
+    return x*y      # returnerar summa
